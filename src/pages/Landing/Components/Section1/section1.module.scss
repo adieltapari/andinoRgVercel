@@ -1,0 +1,11 @@
+@import '../../../../styles/mixings.scss';
+
+.contentGrid {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr;
+  height: 30rem;
+  align-items: flex-start;
+  justify-content: center;
+  z-index: -1;
+}
