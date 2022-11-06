@@ -1,0 +1,29 @@
+@import '../../../../styles/mixings.scss';
+
+.containerGrid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  height: 100%;
+  margin-bottom: 5rem;
+  margin-top: 250px;
+}
+
+.sectionAcontainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+}
+
+.sectionBcontainer {
+  display: grid;
+  grid-template-rows: 1fr 2fr 1fr;
+  align-items: center;
+  justify-content: center;
+}
+.sectionAcolumBcontainer {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 0.3rem;
+  border-radius: 50%;
+}

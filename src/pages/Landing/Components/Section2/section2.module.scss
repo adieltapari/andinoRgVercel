@@ -11,14 +11,13 @@
 .section2Container {
   display: grid;
   grid-template-columns: 0.5fr 0.5fr 0.5fr;
-  margin-right: 200px;
-
+  width: 50%;
+  margin-left: 25%;
   align-content: center;
   justify-content: center;
   row-gap: 1rem;
   color: var(--title-color-primary);
   font-size: 24px;
-  width: 100%;
 
   @include media-breakpoint-between(xs, sm) {
     display: flex;
