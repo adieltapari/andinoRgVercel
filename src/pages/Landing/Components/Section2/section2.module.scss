@@ -2,9 +2,9 @@
 
 .contentGrid {
   margin-top: 50px;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr;
+  height: 30rem;
   align-items: flex-start;
   justify-content: center;
-  height: 45rem;
-  z-index: -1;
 }

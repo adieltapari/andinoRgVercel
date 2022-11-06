@@ -21,9 +21,7 @@ const NavbarItems = () => {
 const Navbar = () => {
   return (
     <div>
-      <div>
-        <NavbarItems />
-      </div>
+      <NavbarItems />
     </div>
   );
 };
