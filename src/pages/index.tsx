@@ -3,6 +3,7 @@ import Head from 'next/head';
 import Layout from '../components/Common/Layout';
 import Navbar from '../components/Navbar';
 import Section1 from './Landing/Components/Section1';
+import Section2 from './Landing/Components/Section2';
 
 const Home: NextPage = () => {
   return (
@@ -16,6 +17,8 @@ const Home: NextPage = () => {
       <Layout>
         <Section1 />
       </Layout>
+
+      <Section2 />
     </div>
   );
 };

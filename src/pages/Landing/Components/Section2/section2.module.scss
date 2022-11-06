@@ -1,0 +1,34 @@
+@import '../../../../styles/mixings.scss';
+
+.contentGrid {
+  margin-top: 250px;
+  display: grid;
+  grid-template-columns: 1fr;
+  height: 55rem;
+  align-items: flex-start;
+  justify-content: center;
+}
+.section2Container {
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr;
+  margin-right: 200px;
+
+  align-content: center;
+  justify-content: center;
+  row-gap: 1rem;
+  color: var(--title-color-primary);
+  font-size: 24px;
+  width: 100%;
+
+  @include media-breakpoint-between(xs, sm) {
+    display: flex;
+    flex-direction: column;
+    height: 900px;
+    margin-top: 70px;
+    font-size: 21px;
+  }
+}
+.gridButton {
+  display: flex;
+  justify-content: center;
+}

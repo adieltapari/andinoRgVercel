@@ -1,0 +1,28 @@
+.baseText {
+  font-size: 24px;
+  letter-spacing: 1px;
+  color: var(--color-text-primary);
+  font-family: var(--text--primary-font);
+
+  &.bold {
+    font-family: var(--text--primary-font);
+    font-weight: 700;
+  }
+  &.regular {
+    font-family: var(--text--primary-font);
+    font-weight: 400;
+  }
+  &.center {
+    text-align: center;
+  }
+  &.alignLeft {
+    text-align: left;
+  }
+  &.alignRight {
+    text-align: right;
+  }
+  .icon {
+    display: flex;
+    align-items: center;
+  }
+}

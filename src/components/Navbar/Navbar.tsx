@@ -1,5 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
+import Link from 'next/link';
+
 import BaseTitle from '../Common/BaseTitle/BaseTitle';
 import styles from './navbar.module.scss';
 
@@ -9,7 +11,9 @@ const NavbarItems = () => {
     <div className={styles.navbarItems}>
       <Image src="/logo_andino.jpg" width={150} height={150} alt="..." />
       <BaseTitle fontSize={21} text="Inicio" bold center />
-      <BaseTitle fontSize={21} bold center text="Actividades" />
+      <Link href="/#actividades">
+        <BaseTitle fontSize={21} bold center text="Actividades" />
+      </Link>
       <BaseTitle fontSize={21} bold center text="Sobre Nosotros" />
       <BaseTitle fontSize={21} bold center text="Ubicación" />
       <BaseTitle fontSize={21} bold center text="Contacto" />
@@ -21,9 +25,7 @@ const NavbarItems = () => {
 const Navbar = () => {
   return (
     <div>
-      <div>
-        <NavbarItems />
-      </div>
+      <NavbarItems />
     </div>
   );
 };
