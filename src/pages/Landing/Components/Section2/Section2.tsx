@@ -11,7 +11,7 @@ const Section2: FC = () => {
     <div id="actividades" className={styles.contentGrid}>
       <BaseTitle fontSize={42} bold center text="NUESTRAS ACTIVIDADES" />
       <div className={styles.gridButton}>
-        <BaseButton medium fontSize={22} text="Horarios 2023" />
+        <BaseButton medium fontSize={22} text="HORARIOS 2023" />
       </div>
 
       <div className={styles.section2Container}>
