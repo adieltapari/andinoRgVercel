@@ -1,0 +1,44 @@
+@import '../../../styles/mixings.scss';
+
+.cardStyle {
+  width: 255px;
+  height: 255px;
+  box-shadow: 0px 0px 12px 10px rgba(211, 211, 211, 0.668);
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 40px 30px 30px 30px;
+  padding: 10px;
+  cursor: pointer;
+  @include media-breakpoint-between(xs, sm) {
+    display: flex;
+    width: 346px;
+    height: 185px;
+  }
+}
+
+.imgContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.textContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.infoContent {
+  padding: 1rem;
+  text-align: center;
+}
