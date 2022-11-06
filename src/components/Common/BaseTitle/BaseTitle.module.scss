@@ -1,0 +1,23 @@
+@import '../../../styles/mixings.scss';
+
+.baseTitle {
+  font-size: 38px;
+  line-height: 50px;
+  letter-spacing: 1px;
+  color: var(--title-color);
+  font-family: var(--title-primary-font);
+
+  &.center {
+    text-align: center;
+  }
+
+  &.bold {
+    font-family: var(--title-primary-font);
+    font-weight: 700;
+  }
+
+  &.regular {
+    font-family: var(--title-primary-font);
+    font-weight: 400;
+  }
+}
