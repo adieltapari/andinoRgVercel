@@ -5,6 +5,7 @@ import Navbar from '../components/Navbar';
 import Section1 from './Landing/Components/Section1';
 import Section2 from './Landing/Components/Section2';
 import Section3 from './Landing/Components/Section3';
+import Section4 from './Landing/Components/Section4';
 
 const Home: NextPage = () => {
   return (
@@ -23,6 +24,9 @@ const Home: NextPage = () => {
       </Layout>
       <Layout>
         <Section3 />
+      </Layout>
+      <Layout>
+        <Section4 />
       </Layout>
     </div>
   );

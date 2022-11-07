@@ -9,7 +9,9 @@ const Section1: FC = () => {
   return (
     <div id="sobrenosotros" className={styles.containerGrid}>
       <div className={styles.sectionAcontainer}>
-        <Image src="/prueba_full_hd.jpg" width={450} height={800} alt="..." />
+        <div className={styles.sectionAcolumAcontainer}>
+          <Image src="/prueba_full_hd.jpg" width={400} height={800} alt="..." />
+        </div>
         <div className={styles.sectionAcolumBcontainer}>
           <Image src="/prueba_full_hd.jpg" width={400} height={400} alt="..." />
           <Image src="/prueba_full_hd.jpg" width={400} height={400} alt="..." />

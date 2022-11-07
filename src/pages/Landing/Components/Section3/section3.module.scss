@@ -2,8 +2,7 @@
 
 .containerGrid {
   display: grid;
-  grid-template-columns: 2fr 1fr;
-  height: 100%;
+  grid-template-columns: 2fr 1.3fr;
   margin-bottom: 5rem;
   margin-top: 250px;
 }
@@ -17,9 +16,15 @@
 
 .sectionBcontainer {
   display: grid;
-  grid-template-rows: 1fr 2fr 1fr;
+  grid-template-rows: 0.4fr 1fr 1fr;
+  width: 60%;
   align-items: center;
   justify-content: center;
+  text-align: justify;
+}
+.sectionAcolumAcontainer {
+  display: flex;
+  justify-content: space-around;
 }
 .sectionAcolumBcontainer {
   display: grid;
