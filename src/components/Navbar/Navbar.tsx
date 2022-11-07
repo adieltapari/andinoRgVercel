@@ -19,7 +19,9 @@ const NavbarItems = () => {
       <Link href="/#sobrenosotros">
         <BaseTitle fontSize={21} bold center text="Sobre Nosotros" />
       </Link>
-      <BaseTitle fontSize={21} bold center text="Ubicación" />
+      <Link href="/#ubicacion">
+        <BaseTitle fontSize={21} bold center text="Ubicación" />
+      </Link>
       <BaseTitle fontSize={21} bold center text="Contacto" />
     </div>
   );
