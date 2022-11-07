@@ -5,7 +5,7 @@ import BaseText from '../../../../components/Common/BaseText/BaseText';
 import BaseTitle from '../../../../components/Common/BaseTitle';
 import styles from './section4.module.scss';
 
-const Section1: FC = () => {
+const Section4: FC = () => {
   return (
     <div id="ubicacion" className={styles.containerGrid}>
       <BaseTitle text="UBICACION" center />
@@ -13,4 +13,4 @@ const Section1: FC = () => {
     </div>
   );
 };
-export default Section1;
+export default Section4;

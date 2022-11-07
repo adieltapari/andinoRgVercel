@@ -5,7 +5,7 @@ import BaseText from '../../../../components/Common/BaseText/BaseText';
 import BaseTitle from '../../../../components/Common/BaseTitle';
 import styles from './section3.module.scss';
 
-const Section1: FC = () => {
+const Section3: FC = () => {
   return (
     <div id="sobrenosotros" className={styles.containerGrid}>
       <div className={styles.sectionAcontainer}>
@@ -29,4 +29,4 @@ const Section1: FC = () => {
     </div>
   );
 };
-export default Section1;
+export default Section3;
